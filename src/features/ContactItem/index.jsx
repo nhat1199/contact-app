@@ -111,7 +111,7 @@ function ContactItem(props) {
 					<Avatar src={contact.avatarURL} className={classes.randomColor}>
 						{firstChar(contact.name)}
 					</Avatar>
-					<span className={classes.name + ' pl-3 ' + classes.ellipsisText}>{contact.name}</span>
+					<span className={' pl-3 ' + classes.ellipsisText}>{contact.name}</span>
 				</div>
 			</Grid>
 			<Grid item sm={3} onClick={() => handleClickOpen()}>
