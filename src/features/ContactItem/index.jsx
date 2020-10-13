@@ -152,7 +152,7 @@ function ContactItem(props) {
 								<CloseIcon />
 							</IconButton>
 							<Typography variant="h6" className={classes.title}>
-								Edit Contact
+								Contact
 							</Typography>
 						</Toolbar>
 					</AppBar>

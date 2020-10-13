@@ -150,7 +150,7 @@ function AddDialog(props) {
 							<CloseIcon />
 						</IconButton>
 						<Typography variant="h6" className={classes.title}>
-							Edit Contact
+							Add Contact
 						</Typography>
 					</Toolbar>
 				</AppBar>
