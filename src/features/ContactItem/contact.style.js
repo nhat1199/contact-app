@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
 		},
 	},
 	appBar: {
+		paddingBottom: '20px',
 		position: 'relative',
 		[theme.breakpoints.up('md')]: {
 			display: 'none',

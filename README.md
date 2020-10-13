@@ -21,7 +21,7 @@ Visit [Surge.sh](https://surge.sh) for more information.
 
 Click [here](https://contact-google.surge.sh)
 
-**Technical:!**
+**Technical:**
 
 -   Material Ui
 -   Redux/ Redex toolkit
@@ -31,12 +31,11 @@ Click [here](https://contact-google.surge.sh)
 -   reactstrap
 
 ### `Folder organize`
-
+<pre>
 .
 ├── conponents
 │ ├── Header
-│ │ ├── index.jsx
-│ │ └── listSearchSlice.redux.js
+│ │  
 │ └── NotFound
 │ 
 ├── custom-field
@@ -44,22 +43,20 @@ Click [here](https://contact-google.surge.sh)
 │ 
 ├── features
 │ ├── AddDialog
-│ │ └── index.jsx
+│ │ 
 │ ├── ContactItem
-│ │ ├── EditDialog
-│ │ │ └── index.jsx
-│ │ ├── contact.style.js
-│ │ └── index.jsx
-│ ├── ListContact
-│ │ ├── index.jsx
-│ │ └── listSlice.redux.js
-│ └── ViewDetail
-│ └── index.jsx
+│ │ └── EditDialog
+│ │ 
+│ │  
+│ └── ListContact
+│ 
 ├── helper
 │ └── initContact.data.js
+│
 ├── store
 │ └── store.redux.js
 ├── App.css
 ├── App.js
 ├── index.css
 └── index.js
+</pre>

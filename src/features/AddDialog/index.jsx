@@ -106,7 +106,7 @@ function AddDialog(props) {
 							return (
 								<Form className={classes.form} autoComplete="off">
 									<FastField name="name" component={InputField} label="Name" placeholder="Name" />
-									<FastField name="phone" component={InputField} label="Phone" placeholder="Phone" />
+									<FastField name="phone" component={InputField} label="Phone" placeholder="Phone" type="number"/>
 									<FastField
 										name="address"
 										component={InputField}

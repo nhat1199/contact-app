@@ -65,7 +65,7 @@ function ContactItem(props) {
 	};
 	const FormContent = () => {
 		return (
-			<Grid container spacing={2} item xs={12} md={9} lg={6}>
+			<Grid container spacing={2} item xs={12} md={9} lg={6} className="pb-4 pt-3">
 				<Grid item xs={12}>
 					<div className="d-flex align-items-center">
 						<Avatar className={classes.randomColor}>{firstChar(contact.name)}</Avatar>
@@ -136,7 +136,7 @@ function ContactItem(props) {
 					onClose={handleCloseView}
 					aria-labelledby="responsive-dialog-title"
 				>
-					<div className={classes.dialogTitle + ' p-3'} id="responsive-dialog-title">
+					<div className={classes.dialogTitle + ' pt-3 pl-3 pr-3'} id="responsive-dialog-title">
 						<h2>{'Contact'}</h2>
 						<div className="d-flex align-items-center ml-auto">
 							<CancelIcon
