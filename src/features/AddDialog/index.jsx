@@ -72,7 +72,7 @@ function AddDialog(props) {
 	
 	const validationSchema = Yup.object().shape({
 		name: Yup.string().required('Name is required'),
-		phone: Yup.number().required('Phone is require!'),
+		phone: Yup.number().positive().required('Phone is positive number required!'),
 	});
 
 	const crateId = () => {

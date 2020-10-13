@@ -72,7 +72,7 @@ export default function Header() {
 	
 	const dispatch = useDispatch();
 	const listBase = [...listContact];
-	// const listShow = [...listSearch];
+	
 	const handleSearch = (e) => {
 		const key = e.target.value.toString().toLowerCase();
 		const listShow = listBase.filter((element) => element.name.toLowerCase().includes(key) || element.phone.toLowerCase().includes(key) );
